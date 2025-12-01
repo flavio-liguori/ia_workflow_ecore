@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="transport" nsURI="http://transport/1.0" nsPrefix="transport">
+
+    <eClassifiers xsi:type="ecore:EClass" name="Voiture">
+        <eOperations name="demarrer"/>
+        <eOperations name="ouvrirCoffre"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="marque">
+            <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="vitesse">
+            <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+        </eStructuralFeatures>
+    </eClassifiers>
+
+    <eClassifiers xsi:type="ecore:EClass" name="Moto">
+        <eOperations name="demarrer"/>
+        <eOperations name="cabrer"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="marque">
+            <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="vitesse">
+            <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+        </eStructuralFeatures>
+    </eClassifiers>
+
+</ecore:EPackage>

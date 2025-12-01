@@ -1,0 +1,4 @@
+FormalContext ModeleUML
+| | marque:EString | vitesse:EInt | demarrer() | ouvrirCoffre() | cabrer() |
+| Voiture | X | X | X | X | |
+| Moto | X | X | X | | X |

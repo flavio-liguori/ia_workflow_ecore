@@ -1,0 +1,16 @@
+[
+    {
+        "type": "HERITAGE",
+        "concept_name": "Vehicule",
+        "classes_concernees": [
+            "Moto",
+            "Voiture"
+        ],
+        "elements_remontes": [
+            "marque:EString",
+            "vitesse:EInt",
+            "demarrer()"
+        ],
+        "raison": "Moto et Voiture partagent des attributs d'état (marque, vitesse) et un comportement (demarrer()) et appartiennent à la même catégorie de 'Véhicule'. L'héritage permet d'éviter la redondance et de factoriser le code."
+    }
+]

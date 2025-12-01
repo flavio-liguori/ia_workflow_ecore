@@ -1,0 +1,16 @@
+[
+    {
+        "type": "HERITAGE",
+        "concept_name": "Vehicule",
+        "classes_concernees": [
+            "Moto",
+            "Voiture"
+        ],
+        "elements_remontes": [
+            "marque:EString",
+            "vitesse:EInt",
+            "demarrer()"
+        ],
+        "raison": "Moto et Voiture partagent des attributs d'état (marque, vitesse) et une action commune (demarrer). Elles sont toutes deux des véhicules, ce qui justifie une relation d'héritage."
+    }
+]
